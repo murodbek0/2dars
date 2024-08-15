@@ -1,15 +1,10 @@
 // 1 misol
 // function name(arg) {
-//   let arr = arg.split(" ");
-//   let reverse = arr.map(function (value) {
-//     return value.split("").reverse().join("");
-//   });
-//   let sort= reverse.sort((a, b) => b.length - a.length);
-//   return sort.join(" ");
+//   return arg.sort((a,b) => b.length - a.length);
 // }
-
-// console.log(name["salom bolalar qalesizlaar"]);
-
+// let sum = ['salom','xayr','qalesizlar']
+// let res = name(sum);
+// console.log(res);
 // 2 misol
 
 // function name(arg) {
@@ -28,7 +23,7 @@
 //           arr += char;
 //       }
 //   }
-//   return arr;
+//   return arr; 
 // }
 // console.log(name(res));
 
@@ -80,7 +75,7 @@
 //   }
 
 //   return res1;
-// }
+// }  
 // console.log(name(res1));
 
 
@@ -112,3 +107,6 @@
 
 // console.log(name(arg, arg1)); 
   
+
+
+
